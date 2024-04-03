@@ -1,0 +1,51 @@
+:root{
+    --first-color:#7D7D7D;
+    --second-color:#626262;
+    --thrid-color:#B4AD9E;
+    --hover-color:#03A9F4;
+}
+.container{
+    max-width: 905px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: solid green;   
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: var(--first-color);
+}
+a:hover{
+    text-decoration:none;
+    color: var(--first-color);
+    color: var(--hover-color);
+}
+.header-a{
+    font-family: "Playfair Display";
+}
+
+.decorative-p{
+    margin-bottom: 32px;
+    font-family: "Ubuntu";
+    color: var(--thrid-color);
+    font-size: 14px;
+    font-weight: 300;
+}
+.decorativ-h{
+    margin-bottom: 40px;
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--second-color);
+}
+.p-decorativ{
+    margin-bottom: 132px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--second-color);
+}
+.main-img{
+    margin-bottom: 62px;
+}
