@@ -2,13 +2,18 @@
     --first-color:#7D7D7D;
     --second-color:#626262;
     --thrid-color:#B4AD9E;
+    --fourth-color:#FFFFFF;
     --hover-color:#03A9F4;
 }
 .container{
     max-width: 905px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: solid green;   
+    outline: solid none;
+    font-family: Playfair Display;  
+}
+ul{
+    padding-inline-start: 0px;
 }
 li{
     list-style-type: none;
@@ -21,10 +26,17 @@ a:hover{
     color: var(--first-color);
     color: var(--hover-color);
 }
+.flex-ul{
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+}
 .header-a{
     font-family: "Playfair Display";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-
 .decorative-p{
     margin-bottom: 32px;
     font-family: "Ubuntu";
@@ -34,18 +46,36 @@ a:hover{
 }
 .decorativ-h{
     margin-bottom: 40px;
-    font-family: Playfair Display;
     font-size: 30px;
     font-weight: 400;
     color: var(--second-color);
 }
 .p-decorativ{
     margin-bottom: 132px;
-    font-family: Playfair Display;
     font-weight: 400;
     font-size: 14px;
     color: var(--second-color);
 }
 .main-img{
     margin-bottom: 62px;
+}
+.main-button{
+    margin-left: 300px;
+    margin-bottom: 65px;
+    display:flex;
+    flex-direction: inline;
+    justify-content: right;
+    background-color: none;
+    padding:23px 48px;
+}
+.header-ul{
+    max-width: 555px;
+    padding: 0 15px;
+    margin-top: 75px;
+    margin-bottom: 95px;
+    outline: solid var(--fourth-color); 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap: 100px;
 }
